@@ -1,0 +1,1 @@
+SELECT * FROM offer_test where offer_org_lat>(18.447838-0.002) AND offer_org_lat<(18.447838+0.002) AND offer_org_long<(73.858833+0.002) AND offer_org_long>(73.858833-0.002) AND offer_date='2017-10-11' AND offer_time>ADDTIME("08:30", "-1500") AND offer_time<ADDTIME("08:30", "1500")
